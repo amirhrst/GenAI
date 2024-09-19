@@ -12,8 +12,10 @@ from langchain.llms import OpenAI
 import os
 
 # App Configuration
-st.set_page_config(page_title="LangChain: Chat with SQL DB", page_icon="🦜")
-st.title("🦜 LangChain: Chat with SQL DB")
+st.set_page_config(page_title="LangChain: Chat with SQL DB")
+st.title("LangChain: Chat with SQL DB")
+st.subheader("Ener your custom api key,press Enter.")
+st.subheader("Choose your sql database and start interacting!")
 
 # Constants
 LOCALDB = "USE_LOCALDB"
